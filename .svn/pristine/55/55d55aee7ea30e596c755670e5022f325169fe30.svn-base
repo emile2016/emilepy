@@ -1,0 +1,8 @@
+#coding:utf-8
+import sae
+import sys
+reload(sys)
+
+from emilepy import wsgi                         
+
+application = sae.create_wsgi_app(wsgi.application)

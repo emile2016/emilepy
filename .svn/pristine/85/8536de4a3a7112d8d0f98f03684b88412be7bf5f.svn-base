@@ -1,0 +1,10 @@
+name: emilepy
+version: 2
+
+libraries:
+- name: "django"
+  version: "1.8"
+
+handlers:
+- url: /static
+  static_dir: static
